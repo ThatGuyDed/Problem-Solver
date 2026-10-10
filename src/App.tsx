@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
+import ClaimForm from './Pages/Claim/Claim';
 import Home from './Pages/Home/Home';
 import NotFound from './Pages/Not Found/Not Found';
-import Upgrade from './Pages/Upgrade/Upgrade';
-import ClaimForm from './Pages/Claim/Claim';
 import SockTracker from './Pages/Tracker/SockTracker';
+import Upgrade from './Pages/Upgrade/Upgrade';
 
 // Replace these with your real page components
 

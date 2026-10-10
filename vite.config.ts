@@ -7,4 +7,5 @@ import { defineConfig } from 'vite'
      resolve: {
        dedupe: ['react', 'react-dom'],
      },
+     base: "/Problem-Solver"
    });
