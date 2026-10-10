@@ -90,7 +90,8 @@ export default function Home() {
             File a claim
           </Button>
           <Button
-            variant="outlined"
+            variant="contained"
+            color='secondary'
             size="large"
             component={RouterLink}
             to="/upgrade"
@@ -177,7 +178,8 @@ export default function Home() {
         </Typography>
         <Button
           sx={{ mt: 3 }}
-          variant="text"
+          variant="contained"
+          color='primary'
           component={RouterLink}
           to="/tracker"
         >
@@ -226,6 +228,7 @@ export default function Home() {
         <Button
           variant="contained"
           size="large"
+          color='secondary'
           component={RouterLink}
           to="/upgrade"
         >

@@ -3,14 +3,15 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     mode: 'light', // or 'dark'
-    primary: { main: '#251258' },
-    secondary: { main: '#8e0cc2' },
+    primary: { main: '#0076bb' },
+    secondary: { main: '#1e2b35' },
     background: {
-        default: '#3f3f64',
-        paper: '#28283f'
+        default: '#3f4c64',
+        paper: '#1e2b35'
     },
     text: {
         primary: '#fff',
+        secondary: '#aaa'
     }
 
   },

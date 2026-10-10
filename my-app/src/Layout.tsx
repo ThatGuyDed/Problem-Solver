@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -8,6 +8,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Layout() {
+    const navigate = useNavigate();
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -22,7 +23,7 @@ export default function Layout() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          <Typography variant="h6" noWrap component="div" sx={{ cursor: 'pointer' }} onClick={() => navigate("/")}>
             SockSure Galactic
           </Typography>
         </Toolbar>
