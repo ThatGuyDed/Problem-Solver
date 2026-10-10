@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import { cards } from './CardData';
+import SockImage from './SockImage';
 
 
 interface SelectActionCardProps {
@@ -43,6 +44,7 @@ function SelectActionCard( {selectedCard, setSelectedCard}: SelectActionCardProp
             }}
           >
             <CardContent>
+              <SockImage title={card.title} />
               <Typography variant="h5" component="div">
                 {card.title}
               </Typography>
